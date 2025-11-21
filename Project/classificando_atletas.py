@@ -1,4 +1,4 @@
-from colorama_config import mensagem_erro, mensagem_sucesso, mensagem_aviso, mensagem_normal
+    from colorama_config import mensagem_erro, mensagem_sucesso, mensagem_aviso, mensagem_normal
 from datetime import date
 
 ano = date.today().year
