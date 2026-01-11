@@ -7,3 +7,8 @@ def banner (texto, largura = 30):
     print(f"*{texto:^{largura-2}}*")
     print(f'{data_hr:^{largura-2}}')
     print('*' * largura)
+def menu_exercicio (texto, largura =40):
+    largura = len(texto) + 4
+    print('#' * largura)
+    print(f"{texto:^{largura}}")
+    print('#' * largura)
